@@ -1,0 +1,36 @@
+*{
+  display: flex;
+  text-align: center;
+  background-color: #292A2D;
+  color: whitesmoke;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+#main{
+  width: 600px;
+  height: 600px;
+  flex-direction: column;
+}
+
+.section{
+  flex: 1;
+}
+
+.btn{
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 100px;
+}

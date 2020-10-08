@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da velha</title>
+</head>
+<body>
+  <h1 id="win"></h1>
+  <div id="main">
+    <div class="section">
+      <button class="btn" id="a1" onclick="play(0,0,'a1')"></button>
+      <button class="btn" id="a2" onclick="play(0,1,'a2')"></button>
+      <button class="btn" id="a3" onclick="play(0,2,'a3')"></button>
+    </div>
+    <div class="section">
+      <button class="btn" id="b1" onclick="play(1,0,'b1')"></button>
+      <button class="btn" id="b2" onclick="play(1,1,'b2')"></button>
+      <button class="btn" id="b3" onclick="play(1,2,'b3')"></button>
+    </div>
+    <div class="section">
+      <button class="btn" id="c1" onclick="play(2,0,'c1')"></button>
+      <button class="btn" id="c2" onclick="play(2,1,'c2')"></button>
+      <button class="btn" id="c3" onclick="play(2,2,'c3')"></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
